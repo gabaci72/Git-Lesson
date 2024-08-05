@@ -59,7 +59,7 @@ git merge branch-name # to merge a branch to the current branch
 git checkout branch-name (origin/master)
 git add .
 git commit -m "sample added for example"
-git push remote branch-name (master)
+git push origin branch-name (master)
 
 # Branch deleting after summary processes :
 git branch -d <branch_ismi>: # Deletes the local branch
