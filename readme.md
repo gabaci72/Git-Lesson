@@ -61,4 +61,5 @@ git checkout branch-name (origin/master)
 git add .
 git commit -m "sample added for example"
 git push remote branch-name (master)
+git status
 ```
