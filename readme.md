@@ -8,13 +8,12 @@ Let's talk about github. It is an awesome development tool which can allow  you 
 Here you have the basic git commands which might be useful:
 
 ```bash
-git --version     # Check the version
-git help          # Get help from git
-git help commit   # Get help for the commit command
+git --version    # Versiyonu kontrol et
+git help          # Git'ten yardım al
+git help commit  # Commit komutu için yardım al
 git config        # Get information about configuration
 git config --list # Check all what is configured
-git config --global user.name "username" # Configuring git user name
-git config --global user.email "email"   # Configuring git user email
+git config --global user.name "username" # Configuring git user nameuser email
 
 git init          # Initialize git repository local machine
 git status        # Check changes or status of file(s) in repository
@@ -56,10 +55,14 @@ git checkout branch-name # to checkout to a certain branch
 git checkout -b branch-name # to create a branch and checkout at the same time
 git merge branch-name # to merge a branch to the current branch
 
-Required commands after changes in branches
+# Simply Summary :
 git checkout branch-name (origin/master)
 git add .
 git commit -m "sample added for example"
 git push remote branch-name (master)
-git status
+
+# Branch deleting after summary processes :
+git branch -d <branch_ismi>: # Deletes the local branch
+git push origin --delete <branch_ismi>: #  Deletes the branch on the remote server.
+# P.S. -D option: Used for forced deletion, but should be used with caution
 ```
