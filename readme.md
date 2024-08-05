@@ -56,6 +56,7 @@ git checkout branch-name # to checkout to a certain branch
 git checkout -b branch-name # to create a branch and checkout at the same time
 git merge branch-name # to merge a branch to the current branch
 
+Required commands after changes in branches
 git checkout branch-name (origin/master)
 git add .
 git commit -m "sample added for example"
