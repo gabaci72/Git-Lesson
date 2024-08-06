@@ -65,6 +65,11 @@ git push origin branch-name (master)
 git branch -d <branch_ismi>: # Deletes the local branch
 git push origin --delete <branch_ismi>: #  Deletes the branch on the remote server.
 # P.S. -D option: Used for forced deletion, but should be used with caution
+
+# git-pull - Fetch from and integrate with another repository or a local branch
+git pull origin <main_branch>
+
+
 ```
 
-test 
+
