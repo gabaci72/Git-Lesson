@@ -1,9 +1,10 @@
 # Github Lesson for absolute beginners
+
 ## Git and Github
 
 Let's talk about github. It is an awesome development tool which can allow  you to control different version.
 
-## Git cheat sheet:
+## Git cheat sheet
 
 Here you have the basic git commands which might be useful:
 
@@ -71,5 +72,3 @@ git pull origin <main_branch>
 
 
 ```
-
-
