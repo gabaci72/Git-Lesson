@@ -2,8 +2,8 @@
 
 ##1.Update the system
 <p>
-´´´terminal
+````terminal
 sudo apt update
 sudo apt upgrade
-´´´
+````
 </p>
